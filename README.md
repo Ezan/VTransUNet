@@ -1,1 +1,3 @@
 # VTransUNet
+
+##  A hybrid type of U-Net (called ViTransUNet) which uses Convolutional Neural Networks (CNN)-Vision-Transformer-based contraction layers to integrate the detailed high-resolution spatial data obtained from deep convolution networks with the global context captured by Transformers. The encoded feature representation is upsampled and concatenated with the corresponding encoded layer to learn back image structures lost during pooling in the contraction layer. Our bacterial cell segmentation approach demonstrated a dice similarity score of 84.62% which performed better than U-Net and UNet3+ architectures with significant performance improvement, given the limited dataset available for the experiment. 
